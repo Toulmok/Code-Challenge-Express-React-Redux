@@ -1,6 +1,3 @@
-//https://developers.arcgis.com/documentation/mapping-apis-and-services/security/arcgis-identity/server-enabled-apps/
-//https://developers.arcgis.com/arcgis-rest-js/authentication/tutorials/authenticate-with-an-arcgis-identity-rest-js-server/
-//https://github.com/Esri/arcgis-rest-js/blob/main/demos/express-oauth-advanced/server.js
 import dotenv from 'dotenv'
 dotenv.config({path:'./server/.env'})
 import express from 'express'

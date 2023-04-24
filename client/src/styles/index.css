@@ -36,6 +36,12 @@ button.top-nav-link {
   max-width: 25%;
 }
 
+#queryInputButton {
+  max-width: 75%;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
 /* /////////////////////////////// */
 
 table, th, td {
