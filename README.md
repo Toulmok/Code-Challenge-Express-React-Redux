@@ -6,4 +6,5 @@ Run npm commands from the 'frontend' folder.
 
 Run 'npm start' to begin.
 
-App builds upon code from Esri's React-Redux repository from 'https://github.com/Esri/react-redux-js4'.
+Client interface builds upon code from Esri's React-Redux repository from 'https://github.com/Esri/react-redux-js4'.
+ExpressJS backend builds upon code from the Medium article 'https://medium.com/geekculture/build-and-deploy-a-web-application-with-react-and-node-js-express-bce2c3cfec32' by Leandro Ercoli with a repository at 'https://github.com/leandroercoli/NodeReact'.
