@@ -1,0 +1,64 @@
+.hidden {
+  display: none !important;
+}
+
+.top-nav {
+  padding: 0 20px 0 20px;
+  flex: 0 0 auto;
+}
+
+button.top-nav-link {
+  cursor: pointer;
+  background: inherit;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  box-sizing: border-box;
+  margin: 0; /* Safari adds a 2px margin to buttons for no reason */
+}
+
+/* /////////////////////////////// */
+
+.center {
+  margin: auto;
+  text-align: center;
+}
+
+.radio-group-label {
+  float: none
+}
+
+#queryInputButton {
+  background-color:aliceblue;
+}
+
+#qDCreated {
+  max-width: 25%;
+}
+
+/* /////////////////////////////// */
+
+table, th, td {
+  margin-left: auto;
+  margin-right: auto;
+  border-collapse: collapse;
+  border: 1px solid;
+  text-align: center;
+  padding: 5px;
+}
+
+span.tagButton {
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 5px;
+  margin: 5px;
+  background-color:aliceblue;
+  line-height: 150%;
+  word-break: normal;
+  display: inline-block;
+}
+
+button.xButton:disabled {
+  opacity: 1;
+  cursor: not-allowed;
+}
