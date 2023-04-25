@@ -14,7 +14,7 @@ export class Query extends React.Component <ViewProps, any> {
     return (
       <div className="queryForm center">
         <form method="GET" id="qForm" onSubmit={this.props.submitForm()}>
-          <label className="center" htmlFor="qTitle">Select Title:</label>
+          <label className="center" htmlFor="qTitle">Select by title:</label>
           <input className=".input-search input-minimal center" type="text" id="qTitle" name="title" placeholder="Title" />
           <div className="dateInput">
             <input className="radio-group-input" type="radio" id="qRCreatedBefore" name="rcreated" value="before" defaultChecked/>
@@ -23,7 +23,7 @@ export class Query extends React.Component <ViewProps, any> {
             <label className="radio-group-label" htmlFor="qRCreatedAfter">After</label>
           </div>
           <div>
-            <label className="center" htmlFor="qDCreated">Select Date:</label>
+            <label className="center" htmlFor="qDCreated">Select by date:</label>
             <input className=".input-search input-minimal center" type="date" id="qDCreated" name="dcreated" placeholder="mm/dd/yyyy" />
           </div>
           <input type="submit" className="center" value="Query" id="queryInputButton" onSubmit={this.props.submitForm()} />
