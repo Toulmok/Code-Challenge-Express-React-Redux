@@ -1,6 +1,6 @@
 # code-challenge-react
  
-Replace CLIENT_ID in 'server.env' with your app ID.  Change redirect to 'http://localhost:9000/authenticate'.
+Replace CLIENT_ID in '~/server/.env' with your app ID.  Change redirect to 'http://localhost:9000/authenticate'.
 
 Build React App in client dir using 'npm run build'.
 Start Express Server in root dir using 'npm start'.
